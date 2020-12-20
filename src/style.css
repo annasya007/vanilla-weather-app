@@ -1,3 +1,54 @@
-h1 {
-    color:red;
+.weather-app-wrapper {
+    max-width:600px;
+    margin:30px auto;
+}
+
+.weather-app {
+    padding:20px;
+    border:1 px solid black;
+    border-radius:5px;
+}
+body {
+  background-image: linear-gradient(
+    to top,
+    #dbdcd7 0%,
+    #dddcd7 24%,
+    #e2c9cc 30%,
+    #e7627d 46%,
+    #b8235a 59%,
+    #801357 71%,
+    #3d1635 84%,
+    #1c1a27 100%
+  );
+}
+
+h1, h2 {
+    color: #dbdbd6;
+    text-align:center;
+    padding:5px;
+    font-weight: lighter;
+}
+#current-temperature {
+    text-align:center;
+    font-size:140px;
+    font-weight: lighter;
+    padding:60px;
+}
+
+li {
+    list-style: none;
+
+}
+
+.list-container {
+    text-align:center;
+}
+
+ul#horizontal-list li {
+    display:inline;
+    padding:20px;
+}
+
+.row {
+    margin-bottom:30px;
 }
