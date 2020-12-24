@@ -28,7 +28,7 @@ h1, h2 {
     padding:5px;
     font-weight: lighter;
 }
-#current-temperature {
+.current-temperature {
     text-align:center;
     font-size:140px;
     font-weight: lighter;
