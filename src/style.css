@@ -4,7 +4,7 @@
 }
 
 .weather-app {
-    padding:20px;
+    padding:10px;
     border:1 px solid black;
     border-radius:5px;
 }
@@ -28,11 +28,14 @@ h1, h2 {
     padding:5px;
     font-weight: lighter;
 }
+#icon img {
+    display:block;
+}
 .current-temperature {
     text-align:center;
-    font-size:140px;
+    font-size:90px;
     font-weight: lighter;
-    padding:60px;
+    padding:40px;
 }
 
 li {
