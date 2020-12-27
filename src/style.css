@@ -21,6 +21,9 @@ h1, h2 {
     font-weight: lighter;
     line-height:20px;
 }
+p {
+    display:inline-block;
+}
 
 .form-control {
     font-family: 'Raleway', sans-serif;
@@ -70,7 +73,7 @@ ul#horizontal-list li {
     margin-bottom:30px;
 }
 
-p {
+small {
   font-family: 'Raleway', sans-serif;
   font-size:12px;
   text-align:center;
