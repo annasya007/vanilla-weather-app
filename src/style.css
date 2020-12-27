@@ -51,7 +51,8 @@ h1, h2 {
     font-size:90px;
     font-weight: lighter;
     padding:0;
-    margin-top:0;
+    margin-top:-20px;
+    margin-bottom:0;
 }
 
 li {
