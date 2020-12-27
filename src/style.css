@@ -9,6 +9,7 @@
     border-radius:5px;
 }
 body {
+    text-align:center;
   background-image: linear-gradient(
     to top,
     #dbdcd7 0%,
@@ -32,6 +33,11 @@ h1, h2 {
 
 .form-control {
     margin-bottom:50px;
+    margin-left:90px;
+}
+
+.btn-outline-light {
+    margin-left:70px;
 }
 
 .centered-icon {
