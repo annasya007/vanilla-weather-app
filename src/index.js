@@ -22,6 +22,7 @@ function displayTemperature(response) {
     let iconElement=document.querySelector("#icon");
 
     temperatureElement.innerHTML=Math.round(response.data.main.temp);
+
     cityElement.innerHTML=response.data.name;
     humidityElement.innerHTML=response.data.main.humidity;
     windElement.innerHTML=Math.round(response.data.wind.speed);
@@ -29,7 +30,18 @@ function displayTemperature(response) {
     iconElement.setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 }
 
+function search (city) { 
 let apiKey="ce3605cd0ccb1bd651f8e3fb805629f6";
-let city="Milan";
 let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature)
+  }
+
+  function handleSubmit(event) {
+      event.preventDefault();
+      let cityInputElement=document.querySelector("#city-input");
+      search(cityInputElement.value);
+  }
+
+  search("Milan");
+  let form=document.querySelector("#search-form");
+  form.addEventListener("submit", handleSubmit);
