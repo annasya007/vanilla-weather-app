@@ -59,3 +59,8 @@ ul#horizontal-list li {
 .row {
     margin-bottom:30px;
 }
+
+p {
+  font-size:12px;
+  text-align:center;
+}
