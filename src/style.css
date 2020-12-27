@@ -9,22 +9,13 @@
     border-radius:5px;
 }
 body {
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
     text-align:center;
-  background-image: linear-gradient(
-    to top,
-    #dbdcd7 0%,
-    #dddcd7 24%,
-    #e2c9cc 30%,
-    #e7627d 46%,
-    #b8235a 59%,
-    #801357 71%,
-    #3d1635 84%,
-    #1c1a27 100%
-  );
 }
 
 h1, h2 {
-    color: #dbdbd6;
+    font-family: 'Raleway', sans-serif;
+    color:white;
     text-align:center;
     padding:5px;
     font-weight: lighter;
@@ -32,11 +23,14 @@ h1, h2 {
 }
 
 .form-control {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
     margin-bottom:50px;
     margin-left:90px;
 }
 
 .btn-outline-light {
+    font-family: 'Raleway', sans-serif;
     margin-left:70px;
 }
 
@@ -47,15 +41,17 @@ h1, h2 {
     margin-bottom:5px;
 }
 .current-temperature {
+    font-family: 'Raleway', sans-serif;
     text-align:center;
     font-size:90px;
     font-weight: lighter;
     padding:0;
-    margin-top:-20px;
-    margin-bottom:0;
+    margin-top:10px;
+    margin-bottom:0px;
 }
 
 li {
+    font-family: 'Raleway', sans-serif;
     list-style: none;
 
 }
@@ -65,6 +61,7 @@ li {
 }
 
 ul#horizontal-list li {
+    font-family: 'Raleway', sans-serif;
     display:inline;
     padding:20px;
 }
@@ -74,6 +71,7 @@ ul#horizontal-list li {
 }
 
 p {
+  font-family: 'Raleway', sans-serif;
   font-size:12px;
   text-align:center;
 }
